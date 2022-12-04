@@ -1,22 +1,22 @@
 @font-face {
     font-family: SansB;
-    src: url(/assets/fonts/X5-Sans_Bold.ttf);
+    src: url(../assets/fonts/X5-Sans_Bold.ttf);
 }
 @font-face {
     font-family: SansL;
-    src: url(/assets/fonts/X5-Sans_Light.ttf);
+    src: url(../assets/fonts/X5-Sans_Light.ttf);
 }
 @font-face {
     font-family: SansM;
-    src: url(/assets/fonts/X5-Sans_Medium.ttf);
+    src: url(../assets/fonts/X5-Sans_Medium.ttf);
 }
 @font-face {
     font-family: SansR;
-    src: url(/assets/fonts/X5-Sans_Regular.ttf);
+    src: url(../assets/fonts/X5-Sans_Regular.ttf);
 }
 @font-face {
     font-family: SansVF;
-    src: url(/assets/fonts/X5-Sans-VF.ttf);
+    src: url(../assets/fonts/X5-Sans-VF.ttf);
 }
 
 * {
