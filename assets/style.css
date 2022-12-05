@@ -300,6 +300,10 @@ a {
     margin: -5px 0 -20px;
     padding: 50px 0;
 }
+.selfjob iframe {
+    min-height: 300px;
+    max-height: 300px;
+}
 .selfjob__title {
     display: flex;
     justify-content: space-between;
@@ -324,7 +328,7 @@ a {
 }
 .selfjob__first {
     display: flex;
-    /* margin: 40px 0; */
+    align-items: center;
     justify-content: space-between;
 }
 .selfjob__video {
@@ -360,11 +364,16 @@ a {
     display: flex;
     margin: 80px 0;
     justify-content: space-between;
+    align-items: center;
 }
 
 .changeSituation {
     background: #FBDDC9;
     padding: 50px 0 75px;
+}
+.changeSituation iframe {
+    max-height: 300px;
+    min-height: 300px;
 }
 .changeSituation__title {
     display: flex;
@@ -466,22 +475,22 @@ a {
     100% {    transform: rotate(-1.5deg);    }
 }
 .contest__dots path:nth-child(1) {
-    animation: dot .8s linear infinite;
+    animation: dot 1.6s linear infinite;
 }
 .contest__dots path:nth-child(2) {
-    animation: dot 1.4s linear infinite;
+    animation: dot 2.4s linear infinite;
 }
 .contest__dots path:nth-child(3) {
-    animation: dot 2s linear infinite;
+    animation: dot 4s linear infinite;
 }
 .dot:nth-child(1) {
-    animation: dot .9s linear infinite;
+    animation: dot 1.8s linear infinite;
 }
 .dot:nth-child(2) {
-    animation: dot 1.5s linear infinite;
+    animation: dot 3s linear infinite;
 }
 .dot:nth-child(3) {
-    animation: dot 2.1s linear infinite;
+    animation: dot 4.2s linear infinite;
 }
 .person {
     transform-origin: 50% 100%;
@@ -563,6 +572,10 @@ a {
     background: #C2B5FF;
     padding: 50px 0 75px;
 }
+.teamSup iframe {
+    max-height: 300px;
+    min-height: 300px;
+}
 .teamSup__title {
     display: flex;
     justify-content: space-between;
@@ -610,7 +623,11 @@ a {
 
 .quiz {
     background: #FBDDC9;
-    padding: 50px 0 20%;
+    padding: 50px 0 350px;
+}
+.quiz iframe {
+    max-height: 300px;
+    min-height: 300px;
 }
 .quiz__title {
     display: flex;
@@ -674,13 +691,13 @@ a {
 .mainTrans svg {
     position: absolute;
     top: -10%;
-    left: auto;
-    right: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .mainTrans .container {
     position: relative;
     background: #C2B5FF;
-    padding: 10% 5% 1%;
+    padding: 175px 75px 40px;
 }
 .mainTrans__content {
     display: flex;
@@ -713,7 +730,7 @@ a {
 .stickers .container {
     background: #FBDDC9;
     position: relative;
-    padding: 3% 5%;
+    padding: 50px 75px;
 }
 .stickers h2 {
     position: absolute;
@@ -737,7 +754,7 @@ a {
 .stickers svg {
     position: absolute;
     right: 5%;
-    top: -67%;
+    top: -70%;
 }
 .stickers a {
     background: #C2B5FF;
